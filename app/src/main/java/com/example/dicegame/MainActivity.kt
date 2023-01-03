@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val btn: Button = findViewById(R.id.btn)
-        val img: ImageView = findViewById(R.id.imageView3)
+        val img: ImageView = findViewById(R.id.imageView)
 
         btn.setOnClickListener {
             var randomNo = (1..6).random()
